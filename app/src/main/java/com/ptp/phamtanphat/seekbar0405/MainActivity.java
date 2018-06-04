@@ -33,6 +33,7 @@ public class MainActivity extends    AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 if(seekBar.getProgress()  < value){
                     seekBar.setProgress(value);
+
                 }
             }
 
